@@ -4,12 +4,17 @@
 Set n-permutations for JavaScript.
 See [docs](https://computational-combinatorics.github.io/n-permutations/index.html).
 
-> :building_construction: Caveat emptor! This is work in progress. Code may be
-> working. Documentation may be present. Coherence may be. Maybe.
-
 > :warning: Depending on your environment, the code may require
 > `regeneratorRuntime` to be defined, for instance by importing
 > [regenerator-runtime/runtime](https://www.npmjs.com/package/regenerator-runtime).
+
+```js
+import {permutations} from '@combinatorics/n-permutations';
+permutations("ABCD", 2); // AB AC AD BA BC BD CA CB CD DA DB DC
+
+import {range} from '@iterable-iterator/range';
+permutations(range(3), 3); // 012 021 102 120 201 210
+```
 
 [![License](https://img.shields.io/github/license/computational-combinatorics/n-permutations.svg)](https://raw.githubusercontent.com/computational-combinatorics/n-permutations/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@combinatorics/n-permutations.svg)](https://www.npmjs.org/package/@combinatorics/n-permutations)
