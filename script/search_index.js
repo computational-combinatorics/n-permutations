@@ -1,5 +1,11 @@
 window.esdocSearchIndex = [
   [
+    "@combinatorics/n-permutations/src/_permutations.js~_permutations",
+    "function/index.html#static-function-_permutations",
+    "<span>_permutations</span> <span class=\"search-result-import-path\">@combinatorics/n-permutations/src/_permutations.js</span>",
+    "function"
+  ],
+  [
     "@combinatorics/n-permutations/src/permutations.js~permutations",
     "function/index.html#static-function-permutations",
     "<span>permutations</span> <span class=\"search-result-import-path\">@combinatorics/n-permutations/src/permutations.js</span>",
@@ -286,6 +292,12 @@ window.esdocSearchIndex = [
     "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
     "src/.external-ecmascript.js~undefined",
     "external"
+  ],
+  [
+    "src/_permutations.js",
+    "file/src/_permutations.js.html",
+    "src/_permutations.js",
+    "file"
   ],
   [
     "src/index.js",
