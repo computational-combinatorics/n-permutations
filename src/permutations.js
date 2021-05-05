@@ -3,7 +3,10 @@ import {_take} from '@iterable-iterator/slice';
 
 import {list} from '@iterable-iterator/list';
 import {pick} from '@iterable-iterator/map';
-import {range} from '@iterable-iterator/range';
+import {
+	forwardRangeIterator,
+	backwardRangeIterator,
+} from '@iterable-iterator/range';
 
 /**
  * Yields all permutations of each possible choice of <code>r</code> elements
@@ -31,8 +34,8 @@ export default function* permutations(iterable, r) {
 		return;
 	}
 
-	const indices = list(range(0, length, 1));
-	const cycles = list(range(length, length - r, -1));
+	const indices = list(forwardRangeIterator(0, length, 1));
+	const cycles = list(backwardRangeIterator(length, length - r, -1));
 
 	yield list(pick(pool, _take(indices, r)));
 
