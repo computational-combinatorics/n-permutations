@@ -61,10 +61,10 @@
     "test": "ava"
   },
   "dependencies": {
-    "@iterable-iterator/list": "^1.0.0",
-    "@iterable-iterator/map": "^1.0.0",
-    "@iterable-iterator/range": "^2.0.0",
-    "@iterable-iterator/slice": "^1.0.0"
+    "@iterable-iterator/list": "^1.0.1",
+    "@iterable-iterator/map": "^1.0.1",
+    "@iterable-iterator/range": "^2.1.0",
+    "@iterable-iterator/slice": "^1.0.1"
   },
   "devDependencies": {
     "@babel/core": "7.14.8",
