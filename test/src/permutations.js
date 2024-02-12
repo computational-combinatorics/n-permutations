@@ -2,7 +2,7 @@ import test from 'ava';
 
 import {list} from '@iterable-iterator/list';
 import {range} from '@iterable-iterator/range';
-import {permutations} from '../../src/index.js';
+import {permutations} from '#module';
 
 const repr = (x) => (Array.isArray(x) ? JSON.stringify(x) : x);
 
