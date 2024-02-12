@@ -18,7 +18,7 @@ permutations(range(3), 3); // 012 021 102 120 201 210
 
 [![License](https://img.shields.io/github/license/computational-combinatorics/n-permutations.svg)](https://raw.githubusercontent.com/computational-combinatorics/n-permutations/main/LICENSE)
 [![Version](https://img.shields.io/npm/v/@combinatorics/n-permutations.svg)](https://www.npmjs.org/package/@combinatorics/n-permutations)
-[![Tests](https://img.shields.io/github/workflow/status/computational-combinatorics/n-permutations/ci?event=push&label=tests)](https://github.com/computational-combinatorics/n-permutations/actions/workflows/ci.yml?query=branch:main)
+[![Tests](https://img.shields.io/github/actions/workflow/status/computational-combinatorics/n-permutations/ci.yml?branch=main&event=push&label=tests)](https://github.com/computational-combinatorics/n-permutations/actions/workflows/ci.yml?query=branch:main)
 [![Dependencies](https://img.shields.io/librariesio/github/computational-combinatorics/n-permutations.svg)](https://github.com/computational-combinatorics/n-permutations/network/dependencies)
 [![GitHub issues](https://img.shields.io/github/issues/computational-combinatorics/n-permutations.svg)](https://github.com/computational-combinatorics/n-permutations/issues)
 [![Downloads](https://img.shields.io/npm/dm/@combinatorics/n-permutations.svg)](https://www.npmjs.org/package/@combinatorics/n-permutations)
