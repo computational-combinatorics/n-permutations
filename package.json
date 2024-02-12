@@ -211,7 +211,8 @@
             "pascalCase": true
           }
         }
-      ]
+      ],
+      "unicorn/prevent-abbreviations": "off"
     },
     "overrides": [
       {
