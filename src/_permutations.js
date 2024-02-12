@@ -1,11 +1,11 @@
 import assert from 'assert';
-import {_take} from '@iterable-iterator/slice';
 
 import {list} from '@iterable-iterator/list';
 import {
 	forwardRangeIterator,
 	backwardRangeIterator,
 } from '@iterable-iterator/range';
+import {_take} from '@iterable-iterator/slice';
 
 /**
  * Yields all k-permutations of {0, 1, ..., n-1}.
